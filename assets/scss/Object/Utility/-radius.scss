@@ -1,0 +1,14 @@
+$index: 8;
+$num: 1;
+@while $index <=52 {
+  .br-#{$num} {
+    border-radius: $index + px;
+  }
+
+  $num: $num + 1;
+  $index: $index + 4;
+}
+
+.circle {
+    border-radius: 9999px;
+}

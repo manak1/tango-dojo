@@ -1,0 +1,23 @@
+@import "@/assets/scss/mixins/";
+
+body 
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+p {
+    @include text-common;
+}
+
+h1 {
+    @include text-h1;
+}
+
+h2 {
+    @include text-h2;
+}
+
+h3 {
+    @include text-h3;
+}

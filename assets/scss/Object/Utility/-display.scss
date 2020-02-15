@@ -1,0 +1,42 @@
+/* 
+Display flex 
+ */
+.d-f {
+  display: flex;
+}
+
+.df-se {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.df-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.df-sa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.df-c {
+    display: flex;
+    justify-content: center;
+}
+
+.d-b {
+    display: block;
+}
+
+.d-ib {
+    display: inline-block;
+}
+
+.fd-c {
+flex-direction: column;
+}
+
+.a-c {
+    align-items: center;
+}

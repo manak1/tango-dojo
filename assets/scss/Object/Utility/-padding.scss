@@ -1,0 +1,24 @@
+
+ $index:8;
+ $num:1;
+ @while $index <=52 {
+
+     .p#{$num} {
+         padding:$index+px;  
+     }
+
+     .pt-#{$num} {
+         padding-top:$index+px;
+     }
+
+     .pr-#{$num} {
+         padding-right: $index+px;
+     }
+
+     .pl-#{$num} {
+         padding-left:$index+px;
+     }
+
+    $num:$num+1;
+     $index:$index+4;
+ }

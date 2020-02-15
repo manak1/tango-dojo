@@ -1,0 +1,38 @@
+$index: 8;
+$num: 1;
+@while $index <=52 {
+  .m#{$num} {
+    margin: $index + px;
+  }
+
+  .mt-#{$num} {
+    margin-top: $index + px;
+  }
+
+  .mr-#{$num} {
+    margin-right: $index + px;
+  }
+
+  .ml-#{$num} {
+    margin-left: $index + px;
+  }
+
+  $num: $num + 1;
+  $index: $index + 4;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
