@@ -1,0 +1,57 @@
+///text-color
+$color-primary: #F38A86;
+$color-secondary: #fce2e1;
+$color-black: #0a0919;
+$color-white: #fdfdff;
+
+//text-size
+$default-font-size: 2.2rem;
+$small-font-size: 1.4rem;
+$xsmall-font-size: 1.1rem;
+$large-font-size: 4.2rem;
+
+//text-style
+
+@mixin text-common {
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1;
+  font-weight: normal;
+  font-size: $default-font-size;
+  color: $color-black;
+  margin: 0;
+}
+
+@mixin text-default {
+  @include text-common();
+  font-size: $default-font-size;
+}
+
+@mixin text-large {
+  @include text-common();
+  font-size: $large-font-size;
+  font-weight: 700;
+}
+
+@mixin text-small {
+  @include text-common();
+  font-size: $small-font-size;
+}
+
+@mixin text-xsmall {
+  @include text-common();
+  font-size: $xsmall-font-size;
+}
+
+@mixin text-h1 {
+  @include text-large;
+}
+
+@mixin text-h2 {
+  @include text-common;
+  font-size: 32px;
+}
+
+@mixin text-h3 {
+  @include text-common;
+  font-size: 24px;
+}

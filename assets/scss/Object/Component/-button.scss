@@ -1,0 +1,29 @@
+
+.c-button {
+    font-size: 17px;
+    cursor: pointer;
+    color: $color-white;
+    padding:12px 15px;
+    text-decoration: none;
+    background-color:$color-primary;
+    border-radius: 4px;
+    display: inline-block;
+
+    &:hover {
+        opacity: .7;
+        transition: .1s;
+    }
+}
+
+.c-button--large {
+    @extend .c-button;
+    padding:15px 25px;
+}
+
+.c-button--shadow {
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05);
+}
+
+.c-button--round {
+    border-radius: 30px;
+}

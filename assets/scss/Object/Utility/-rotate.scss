@@ -1,0 +1,10 @@
+$index: 45;
+$num: 1;
+@while $index <=360 {
+  .r#{$num} {
+    transform: rotate($index + dg);
+  }
+
+  $num: $num + 1;
+  $index: $index + 45;
+}
